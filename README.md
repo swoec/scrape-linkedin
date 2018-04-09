@@ -1,7 +1,7 @@
 # pylinkedin
 [![Travis-CI Build Status](https://travis-ci.org/ericfourrier/scrape-linkedin.svg?branch=master)](https://travis-ci.org/ericfourrier/scrape-linkedin)
 
-
+ notes: modify this project to scrap some linkedln data to help myself to clarify the posts and get more opportunities
 
 
 ## Introduction
