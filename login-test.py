@@ -22,8 +22,8 @@ def login():
         browser.select_form(class_="login-form")
         #browser.select_form(name="login-form")
         
-        browser["session_key"] = "13225859033"
-        browser["session_password"] = "wj16830223"
+        browser["session_key"] = "your user name"
+        browser["session_password"] = "your passwd"
         response = browser.submit()
         
         print response.read()
@@ -36,9 +36,9 @@ def selelogin(url):
         browser.get(url)
         
         loginInput = browser.find_element_by_name('session_key')
-        loginInput.send_keys('13225859033')
+        loginInput.send_keys('your user name')
         passwd = browser.find_element_by_name('session_password')
-        passwd.send_keys('wj16830223')
+        passwd.send_keys('your passwd')
         
         btn = browser.find_element_by_id('login-submit')
         btn.click()
