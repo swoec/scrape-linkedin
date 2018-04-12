@@ -1,7 +1,10 @@
 # pylinkedin
 [![Travis-CI Build Status](https://travis-ci.org/ericfourrier/scrape-linkedin.svg?branch=master)](https://travis-ci.org/ericfourrier/scrape-linkedin)
-
- notes: modify this project to scrap some linkedln data to help myself to clarify the posts and get more opportunities
+# notes
+  use selenium to login in the linkedln
+  shift to my network and then  see all your friend list
+  scrape your friends list by analyst the sources 
+  modify this project to scrap some linkedln data to help myself to clarify the posts and get more opportunities
 
 
 ## Introduction
