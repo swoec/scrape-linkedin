@@ -64,6 +64,29 @@ def selelogin(url):
         print(connects.text)
         #for i in connects:
          #   print(i)
+         
+        time.sleep(3)
+        print(browser.page_source)
+        f = open('te.html','w')
+        f.write(browser.page_source.encode('utf-8'))
+        f.flush()
+        f.close()
+        #source = browser.page_source
+        #source = source.decode(encoding='UTF-8')
+        #print source
+        soup = BeautifulSoup((browser.page_source).encode('utf-8'),'lxml')
+        #soup = BeautifulSoup(browser.page_source, 'lxml')
+        #print soup.find('li',class_="mn-pymk-list__card display-flex flex-column").text
+        
+        for i in   soup.find('li',class_="mn-pymk-list__card display-flex flex-column").text:
+                 #print i
+                 url = i
+        #connects = browser.find_element_by_class_name('pymk-card__link')
+        #connects.click()
+        #print(connects.text)
+        #for i in connects:
+         #   print(i)
+        
         
         
         
