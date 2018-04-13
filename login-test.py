@@ -65,7 +65,9 @@ def selelogin(url):
         #for i in connects:
          #   print(i)
          
+         
         time.sleep(3)
+        #store the pagesource in a file to validata it
         print(browser.page_source)
         f = open('te.html','w')
         f.write(browser.page_source.encode('utf-8'))
@@ -74,6 +76,7 @@ def selelogin(url):
         #source = browser.page_source
         #source = source.decode(encoding='UTF-8')
         #print source
+        #get and analysis the items 
         soup = BeautifulSoup((browser.page_source).encode('utf-8'),'lxml')
         #soup = BeautifulSoup(browser.page_source, 'lxml')
         #print soup.find('li',class_="mn-pymk-list__card display-flex flex-column").text
