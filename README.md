@@ -5,6 +5,9 @@
   shift to my network and then  see all your friend list,
   scrape your friends list by analyst the sources ,
   modify this project to scrap some linkedln data to help myself to clarify the posts and get more opportunities
+  
+  The steps are :
+    	1.Login in .linkedin by using selenium  2.Click the users' network  3.Click see all button  	4.Get the page source and analysis to get their friend lists.  5.Get each friend link URL and 	their friends list
 
 
 ## Introduction
